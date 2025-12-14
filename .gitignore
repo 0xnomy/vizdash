@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+
+# Datasets (Large files)
+/datasets
+/outputs
+
+# Dashboard dependencies (handled by dashboard/.gitignore but good to double check)
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
